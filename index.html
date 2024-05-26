@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gold wars</title>
+    <meta name="theme-color" content="#336699" />
+    <meta name="creator" content="ask5" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="score">Gold Wars!</div>
+      <label for="showgird">
+        Grid <input type="checkbox" onclick="init();" checked id="showgird" />
+      </label>
+      <canvas id="canvas" width="600" height="600"></canvas>
+      <button id="button" onclick="handleClick();">Go!</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
